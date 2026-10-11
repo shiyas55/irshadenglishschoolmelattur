@@ -87,7 +87,7 @@ export const InspectionMode: React.FC<InspectionModeProps> = ({
             </div>
             
             <h1 className="text-2xl sm:text-3xl font-serif font-black text-[#0f2b5c]">
-              Official Achievement Audit Record (2024–2026)
+              Achievement Presentation (2024 - 2026)
             </h1>
             <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-2xl leading-relaxed">
               Curated for the Official School Inspection Committee. Contains complete student rosters, CBSE board metrics, state-level ranks, talent search citations, and primary evidence cross-references.

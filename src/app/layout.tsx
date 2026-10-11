@@ -3,19 +3,30 @@ import './globals.css';
 import { Watermark } from '../components/Watermark';
 
 export const metadata: Metadata = {
-  title: 'Irshad English School — Digital Achievement Exhibition (Inspection 2024–2026)',
-  description: 'Official digital achievement exhibition for Irshad English School, Melattur, Malappuram, Kerala (CBSE Affiliation No. 930636). Curated for the School Inspection Committee.',
+  title: 'Irshad English School — Achievement Presentation (2024 - 2026)',
+  description: 'Official Achievement Presentation for Irshad English School, Melattur, Malappuram, Kerala (CBSE Affiliation No. 930636). Curated presentation of school achievements (2024 - 2026).',
   keywords: [
     'Irshad English School',
     'Melattur',
     'CBSE 930636',
-    'School Inspection',
-    'Digital Achievement Exhibition',
+    'Achievement Presentation',
+    'School Achievements 2024-2026',
     'Kerala School Achievements',
   ],
   authors: [{ name: 'Irshad English School' }],
   icons: {
     icon: '/favicon.ico',
+  },
+  openGraph: {
+    title: 'Irshad English School — Achievement Presentation (2024 - 2026)',
+    description: 'Official Achievement Presentation for Irshad English School, Melattur, Malappuram, Kerala (CBSE Affiliation No. 930636). Curated presentation of school achievements (2024 - 2026).',
+    siteName: 'Irshad English School',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Irshad English School — Achievement Presentation (2024 - 2026)',
+    description: 'Official Achievement Presentation for Irshad English School, Melattur, Malappuram, Kerala (CBSE Affiliation No. 930636). Curated presentation of school achievements (2024 - 2026).',
   },
 };
 
@@ -40,4 +51,3 @@ export default function RootLayout({
     </html>
   );
 }
-

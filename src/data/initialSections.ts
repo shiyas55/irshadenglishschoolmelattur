@@ -6,7 +6,7 @@ export const INITIAL_SECTIONS: SchoolSection[] = [
     id: 'sec-achievements',
     slug: 'achievements',
     title: 'Achievements & Laurels',
-    subtitle: 'Official School Inspection Record 2024–2026',
+    subtitle: 'Achievement Presentation (2024 - 2026)',
     description: 'Accredited record of outstanding accomplishments in Board Exams, National Olympiads, Athletics, and Inter-School Championships.',
     coverImage: '/Irshad School.jpg',
     icon: 'Trophy',

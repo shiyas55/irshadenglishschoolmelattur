@@ -44,7 +44,7 @@ export const HeroWelcome: React.FC<HeroWelcomeProps> = ({
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full white-frosted-pill shadow-xs">
           <Sparkles className="w-3.5 h-3.5 text-blue-700 animate-pulse" />
           <span className="text-[11px] sm:text-xs font-bold tracking-wider uppercase text-[#0a1e44]">
-            Official Inspection Edition 2024–2026
+            Achievement Presentation (2024 - 2026)
           </span>
         </div>
 
@@ -65,7 +65,7 @@ export const HeroWelcome: React.FC<HeroWelcomeProps> = ({
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-serif font-black text-[#0a1e44] tracking-tight leading-tight drop-shadow-xs">
             Irshad English School
             <span className="block text-xl sm:text-3xl md:text-4xl text-[#1e40af] font-serif italic font-bold mt-1">
-              Digital Achievement Exhibition
+              Achievement Presentation (2024 - 2026)
             </span>
           </h1>
           <p className="text-xs sm:text-sm text-slate-800 font-medium max-w-lg mx-auto leading-relaxed">

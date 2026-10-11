@@ -12,7 +12,7 @@ export const EXHIBITION_CONFIG: ExhibitionConfig = {
   contactPhone: '+91 4933 278455 / 9446947672',
   contactEmail: 'irshadesmelattur@yahoo.com',
   website: 'https://irshadenglishschoolmelattur.com',
-  inspectionTitle: 'Official School Inspection — Digital Achievement Exhibition (2024–2026)',
+  inspectionTitle: 'Irshad English School — Achievement Presentation (2024 - 2026)',
   slideDurationSeconds: 7,
 };
 

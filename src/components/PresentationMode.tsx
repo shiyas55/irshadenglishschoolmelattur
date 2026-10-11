@@ -166,7 +166,7 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({
             {String(currentIndex + 1).padStart(2, '0')} / {String(achievements.length).padStart(2, '0')}
           </div>
           <span className="hidden lg:inline-block text-xs font-serif tracking-wide text-slate-600 font-semibold">
-            Irshad English School • Digital Inspection Exhibition
+            Irshad English School • Achievement Presentation (2024 - 2026)
           </span>
         </div>
 

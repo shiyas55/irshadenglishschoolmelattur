@@ -133,7 +133,7 @@ export const QRCodeModal: React.FC<QRCodeModalProps> = ({ isOpen, onClose }) => 
                 <img src="/assets/school-logo.png" alt="Logo" className="w-full h-full object-contain rounded-full" />
               </div>
               <span className="text-[10px] font-bold tracking-widest uppercase text-amber-700">
-                OFFICIAL INSPECTION EDITION 2024–2026
+                ACHIEVEMENT PRESENTATION (2024 - 2026)
               </span>
               <h3 className="text-lg font-serif font-bold text-[#0b172a] tracking-tight uppercase">
                 Irshad English School
