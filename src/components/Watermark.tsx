@@ -4,24 +4,25 @@ import React, { useState } from 'react';
 import { Phone, MessageCircle, Code2, X } from 'lucide-react';
 
 export const Watermark: React.FC = () => {
-  const [isMinimized, setIsMinimized] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <aside
       aria-label="Developer Watermark"
       className="fixed bottom-3 right-3 z-40 no-print font-sans pointer-events-auto"
     >
-      {isMinimized ? (
+      {!isOpen ? (
         <button
-          onClick={() => setIsMinimized(false)}
-          className="px-2.5 py-1.5 rounded-full bg-slate-900/90 hover:bg-slate-900 text-amber-300 text-[11px] font-bold shadow-lg border border-amber-400/30 backdrop-blur-md flex items-center gap-1.5 transition-all hover:scale-105"
-          title="Designed & Developed by Shiyas Ahmad (7012587705)"
+          onClick={() => setIsOpen(true)}
+          className="group flex items-center gap-1.5 px-2.5 py-1.5 rounded-full bg-slate-950/85 hover:bg-slate-900 text-white text-[11px] font-semibold shadow-lg border border-white/20 backdrop-blur-md transition-all hover:scale-105 active:scale-95"
+          title="Designed & Developed by Shiyas Ahmad (Click to view contact)"
         >
-          <Code2 className="w-3.5 h-3.5 text-amber-400" />
-          <span>Shiyas Ahmad</span>
+          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+          <Code2 className="w-3.5 h-3.5 text-amber-400 group-hover:rotate-12 transition-transform" />
+          <span className="text-slate-200 group-hover:text-amber-300 transition-colors">Shiyas</span>
         </button>
       ) : (
-        <div className="flex items-center gap-2 pl-3 pr-2 py-1.5 rounded-full bg-slate-950/90 text-white border border-white/15 shadow-xl backdrop-blur-md text-[11px] font-medium transition-all hover:border-amber-400/50">
+        <div className="flex items-center gap-2 pl-3 pr-2 py-1.5 rounded-full bg-slate-950/95 text-white border border-amber-400/40 shadow-2xl backdrop-blur-md text-[11px] font-medium transition-all">
           <div className="flex items-center gap-1.5 text-slate-300">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span className="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Dev by</span>
@@ -50,14 +51,15 @@ export const Watermark: React.FC = () => {
           </a>
 
           <button
-            onClick={() => setIsMinimized(true)}
-            className="p-0.5 rounded-full text-slate-500 hover:text-slate-300 transition-colors ml-0.5"
-            title="Minimize Watermark"
+            onClick={() => setIsOpen(false)}
+            className="p-1 rounded-full text-slate-400 hover:text-white hover:bg-white/10 transition-colors ml-0.5"
+            title="Minimize"
           >
-            <X className="w-3 h-3" />
+            <X className="w-3.5 h-3.5" />
           </button>
         </div>
       )}
     </aside>
   );
 };
+
