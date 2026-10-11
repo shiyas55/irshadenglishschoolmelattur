@@ -802,6 +802,14 @@ export default function SchoolSectionPublicPage({ params }: PageProps) {
               <span>Back to School Main Exhibition</span>
             </Link>
           </div>
+          <div className="pt-3 border-t border-slate-100 flex items-center justify-center gap-2 text-[11px] text-slate-400">
+            <span>Watermark: Designed & Developed by</span>
+            <strong className="text-slate-700 font-bold">Shiyas Ahmad</strong>
+            <span>•</span>
+            <a href="tel:+917012587705" className="text-blue-600 font-medium hover:underline">
+              Ph: 7012587705
+            </a>
+          </div>
         </div>
       </footer>
 

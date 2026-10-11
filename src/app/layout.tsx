@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
+import { Watermark } from '../components/Watermark';
 
 export const metadata: Metadata = {
   title: 'Irshad English School — Digital Achievement Exhibition (Inspection 2024–2026)',
@@ -32,9 +33,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-[#f8fafc] text-slate-900 antialiased selection:bg-blue-600 selection:text-white">
+      <body className="min-h-screen bg-[#f8fafc] text-slate-900 antialiased selection:bg-blue-600 selection:text-white relative">
         {children}
+        <Watermark />
       </body>
     </html>
   );
 }
+

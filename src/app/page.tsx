@@ -174,7 +174,7 @@ export default function HomePage() {
 
       {/* Dignified Footer */}
       {currentMode !== 'presentation' && (
-        <footer className={`border-t py-6 px-4 sm:px-6 lg:px-8 text-center text-xs space-y-1.5 no-print relative z-10 ${
+        <footer className={`border-t py-6 px-4 sm:px-6 lg:px-8 text-center text-xs space-y-2 no-print relative z-10 ${
           currentMode === 'hero' 
             ? 'border-white/10 bg-slate-950/80 backdrop-blur-md text-slate-300' 
             : 'border-slate-800/80 bg-[#040913] text-slate-300'
@@ -191,6 +191,17 @@ export default function HomePage() {
           <p className="text-[11px] text-slate-400">
             Prepared exclusively for the Official School Inspection Committee.
           </p>
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-2 text-[11px] text-slate-400 border-t border-white/5">
+            <span>Watermark: Designed & Developed by</span>
+            <strong className="text-amber-300 font-bold tracking-wide">Shiyas Ahmad</strong>
+            <span>•</span>
+            <a
+              href="tel:+917012587705"
+              className="text-slate-300 hover:text-white transition-colors underline decoration-slate-600"
+            >
+              Ph: 7012587705
+            </a>
+          </div>
         </footer>
       )}
 
